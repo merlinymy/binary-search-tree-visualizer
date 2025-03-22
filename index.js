@@ -20,7 +20,7 @@ const deleteButton = document.querySelector("button.delete");
 deleteButton.addEventListener("click", () => {
   let val = deleteInput.value;
   if (val) {
-    tree.delete(val);
+    tree.delete(+val);
     drawTree(tree);
     updateInfo();
   }
@@ -33,7 +33,7 @@ arrayInput.addEventListener("input", (event) => {
   if (val !== " " && val !== "") {
     array = val.split(" ");
   }
-  tree = new Tree(array);
+  tree = new Tree(array.map((n) => Number.parseInt(n)));
   drawTree(tree);
   updateInfo();
 });
