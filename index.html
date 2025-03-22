@@ -16,32 +16,33 @@
     </header>
     
     <div class="wrapper">
-        <div class="inputs">
-            <div class="input-group">
-                <label for="array-input">Array Input: seperate numbers using space</label>
-                <input type="text" id="array-input" placeholder="42 12 34 2 3 56 47">
+        <div class="inputs-graph-wrap">
+            <div class="inputs">
+                <div class="input-group">
+                    <label for="array-input">Array Input: seperate numbers using space</label>
+                    <input type="text" id="array-input" placeholder="42 12 34 2 3 56 47">
+                </div>
+                <div class="input-group">
+                    <label for="insert">Insert A Value: </label>
+                    <input type="number" id="insert">
+                    <button class="insert" type="button">Insert</button>
+                </div>
+                <div class="input-group">
+                    <label for="delete">Delete A Value: </label>
+                    <input type="number" id="delete">
+                    <button class="delete" type="button">Delete</button>
+                </div>
+                <div class="find-node">
+                    <label for="find">Find A Value</label>
+                    <input type="number" id="find">
+                    <p class="is-exist"></p>
+                    <p class="node-height"></p>
+                    <p class="node-depth"></p>
+                </div>
+                <button type="button" class="rebalance">Re-balance Tree</button>
             </div>
-            <div class="input-group">
-                <label for="insert">Insert A Value: </label>
-                <input type="number" id="insert">
-                <button class="insert" type="button">Insert</button>
+            <div class="graph">
             </div>
-            <div class="input-group">
-                <label for="delete">Delete A Value: </label>
-                <input type="number" id="delete">
-                <button class="delete" type="button">Delete</button>
-            </div>
-            <div class="find-node">
-                <label for="find">Find A Value</label>
-                <input type="number" id="find">
-                <p class="is-exist"></p>
-                <p class="node-height"></p>
-                <p class="node-depth"></p>
-            </div>
-            <button type="button" class="rebalance">Re-balance Tree</button>
-        </div>
-        <div class="graph">
-
         </div>
         <div class="info">
             <div class="tree-height">

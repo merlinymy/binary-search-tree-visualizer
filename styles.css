@@ -18,7 +18,7 @@ body {
     border: 2px solid var(--green-clr);
     border-radius: 0;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
     background-color: black;
 }
 
@@ -49,6 +49,7 @@ input {
     border: 2px solid var(--green-clr);
     padding: 0.3rem;
     font-family: 'Courier New', Courier, monospace;
+    width: 70%;
 }
 
 input:focus {
@@ -62,7 +63,7 @@ label {
 
 .input-group, 
 button.rebalance , .find-node{
-    margin-top: 1rem;
+    margin-top: 0.25rem;
 }
 
 
@@ -78,13 +79,14 @@ button.rebalance , .find-node{
 }
 
 .level-order, .in-order, .pre-order, .post-order {
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     display: block;
 }
 
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
+
 }
 
 .retro-title {
@@ -119,3 +121,15 @@ button.rebalance , .find-node{
     background-color: var(--green-clr);
 }
 
+.inputs-graph-wrap {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.inputs {
+    flex: 1 1 10px;
+}
+
+.graph {
+    flex: 1 1 auto;
+}
