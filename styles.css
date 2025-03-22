@@ -127,7 +127,7 @@ button.rebalance , .find-node{
 }
 
 .inputs {
-    flex: 1 1 10px;
+    flex: 1 1 auto;
 }
 
 .graph {
