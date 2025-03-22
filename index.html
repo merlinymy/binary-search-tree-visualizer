@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bst visualizer</title>
+    <script src="node.js" defer></script>
+    <script src="bst.js" defer></script>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="retro-title">
+        <h1> BINARY TREE VISUALIZER</h1>
+        <p class="subtitle">-- by Merlin Y --</p>
+    </header>
+    
+    <div class="wrapper">
+        <div class="inputs">
+            <div class="input-group">
+                <label for="array-input">Array Input: seperate numbers using space</label>
+                <input type="text" id="array-input" placeholder="42 12 34 2 3 56 47">
+            </div>
+            <div class="input-group">
+                <label for="insert">Insert A Value: </label>
+                <input type="number" id="insert">
+                <button class="insert" type="button">Insert</button>
+            </div>
+            <div class="input-group">
+                <label for="delete">Delete A Value: </label>
+                <input type="number" id="delete">
+                <button class="delete" type="button">Delete</button>
+            </div>
+            <div class="find-node">
+                <label for="find">Find A Value</label>
+                <input type="number" id="find">
+                <p class="is-exist"></p>
+                <p class="node-height"></p>
+                <p class="node-depth"></p>
+            </div>
+            <button type="button" class="rebalance">Re-balance Tree</button>
+        </div>
+        <div class="graph">
+
+        </div>
+        <div class="info">
+            <div class="tree-height">
+
+            </div>
+            <div class="is-tree-balanced">
+
+            </div>
+            <div class="level-order">
+                <p>Level Order:</p>
+                <p class="level-order-res"></p>
+            </div>
+            <div class="in-order">
+                <p>In Order:</p>
+                <p class="in-order-res"></p>
+            </div>
+            <div class="pre-order">
+                <p>Pre Order:</p>
+                <p class="pre-order-res"></p>
+            </div>
+            <div class="post-order">
+                <p>Post Order:</p>
+                <p class="post-order-res"></p>
+            </div>
+            <div class="tree-height">
+
+            </div>
+            <div class="isBalanced">
+
+            </div>
+        </div>
+    </div>
+    <footer class="retro-footer">
+        <p><a href="https://github.com/merlinymy" target="_blank">My Github</a></p>
+        <p><a href="https://www.linkedin.com/in/mengyumerlin" target="_blank">My LinkedIn</a></p>
+    </footer>
+</body>
+</html>

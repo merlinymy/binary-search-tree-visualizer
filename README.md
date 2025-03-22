@@ -1,1 +1,1 @@
-# binary-search-tree-visualizer
+Binary Tree Visualizer is a retro-styled browser app built with vanilla JavaScript, HTML, and CSS that lets you visualize a binary search tree in real time. You can insert, delete, find, and rebalance nodes, with all traversals and structural information displayed instantly. Inspired by classic DOS interfaces, it features a terminal-like aesthetic for a nostalgic developer experience.

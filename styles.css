@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --green-clr: #00b300;
+}
+body {
+    background-color: black;
+    color: var(--green-clr);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.inputs, .graph, .info {
+    border: 2px solid var(--green-clr);
+    border-radius: 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+button {
+    background-color: black;
+    color: var(--green-clr);
+    border: 2px solid var(--green-clr);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+button:hover {
+    background-color: var(--green-clr);
+    color: black;
+}
+
+input {
+    background-color: black;
+    color: var(--green-clr);
+    border: 2px solid var(--green-clr);
+    padding: 0.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.input-group, 
+button.rebalance , .find-node{
+    margin-top: 1rem;
+}
+
+
+.graph {
+    white-space: pre;
+    font-family: monospace;
+    font-size: 1rem;
+    display: flex;
+}
+
+.tree-visual div {
+    margin-left: 1rem;
+}
+
+.level-order, .in-order, .pre-order, .post-order {
+    margin-top: 1rem;
+    display: block;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.retro-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--green-clr);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.retro-title h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 5px var(--green-clr);
+}
+
+.retro-footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid var(--green-clr);
+    color: var(--green-clr);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.retro-footer a {
+    color: var(--green-clr);
+    text-decoration: underline;
+}
+
+.retro-footer a:hover {
+    color: black;
+    background-color: var(--green-clr);
+}
+
